@@ -111,7 +111,6 @@ rem *** create output folder
 
 mkdir aseprite-%ASEPRITE_VERSION%
 echo # This file is here so Aseprite behaves as a portable program >aseprite-%ASEPRITE_VERSION%\aseprite.ini
-xcopy /E /Q /Y aseprite\docs aseprite-%ASEPRITE_VERSION%\docs\
 xcopy /E /Q /Y build\bin\aseprite.exe aseprite-%ASEPRITE_VERSION%\
 xcopy /E /Q /Y build\bin\data aseprite-%ASEPRITE_VERSION%\data\
 
